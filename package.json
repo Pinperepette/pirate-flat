@@ -1,0 +1,21 @@
+{
+  "name": "pirate-flat",
+  "displayName": "Pirate-Flat",
+  "description": "a simple flat theme for pirates",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.83.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Pirate-Flat-Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Pirate-Flat-Theme-color-theme.json"
+      }
+    ]
+  }
+}
