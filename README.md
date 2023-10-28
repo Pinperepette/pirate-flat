@@ -19,4 +19,5 @@ cd .vscode/extensions/ && git clone https://github.com/Pinperepette/pirate-flat
 ```
 
 
-**Enjoy!**
+![Coccodio](image.png)
+
