@@ -1,5 +1,8 @@
 # pirate-flat README
 
+![Coccodio](anteprima.png)
+
+
 ## Working with Markdown
 
 You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
@@ -17,7 +20,3 @@ or
 ```bash
 cd .vscode/extensions/ && git clone https://github.com/Pinperepette/pirate-flat
 ```
-
-
-![Coccodio](immagine.png)
-
