@@ -91,15 +91,15 @@
 		"terminalOverviewRuler.cursorForeground": "#A7A7A7",
 		"terminalOverviewRuler.findMatchForeground": "#D4D4D4",
 		//Activity Bar
-		"activityBar.background": "#1E1E1E",
-		"activityBar.dropBorder": "#1E1E1E",
+		"activityBar.background": "#272822",
+		"activityBar.dropBorder": "#272822",
 		"activityBar.foreground": "#D4D4D4",
 		"activityBar.inactiveForeground": "#848484",
-		"activityBar.border": "#1E1E1E",
+		"activityBar.border": "#272822",
 		"activityBarBadge.background": "#FC0E79",
 		"activityBarBadge.foreground": "#000000",
 		"activityBar.activeBorder": "#FC0E79",
-		"activityBar.activeBackground": "#1E1E1E",
+		"activityBar.activeBackground": "#272822",
 		"activityBar.activeFocusBorder": "#FFCC00",
 		// Bage
 		"badge.background": "#00000030",
@@ -176,10 +176,10 @@
 		"menu.selectionForeground": "#FFCC01",
 		// SiedeBar
 		"sideBar.background": "#272822",
-		"sideBar.border": "#21212160",
+		"sideBar.border": "#272822",
 		"sideBar.foreground": "#616161",
 		"sideBarSectionHeader.background": "#272822",
-		"sideBarSectionHeader.border": "#21212160",
+		"sideBarSectionHeader.border": "#272822",
 		"sideBarSectionHeader.foreground": "#616161",
 		"sideBarTitle.foreground": "#eeffff",
 		//
@@ -272,7 +272,32 @@
 		//
 		"textLink.activeForeground": "#eeffff",
 		"textLink.foreground": "#FFCC01",
-		"widget.shadow": "#00000030"
+		"widget.shadow": "#00000030",
+		//Notebook
+		"notebook.editorBackground": "#272822",
+		"notebook.cellBorderColor": "#1E1E1E",
+		"notebook.cellHoverBackground": "#1e1e1e5f", //
+		"notebook.cellInsertionIndicator": "#FC0E79",
+		"notebook.cellStatusBarItemHoverBackground": "#FFCC00",
+		"notebook.cellToolbarSeparator": "#FF5370",
+		"notebook.cellEditorBackground": "#1E1E1E",
+		"notebook.focusedCellBackground": "#272822",
+		"notebook.focusedCellBorder": "#FFCC00",
+		"notebook.focusedEditorBorder": "#FC0E79",
+		"notebook.inactiveFocusedCellBorder": "#FFCC00",
+		"notebook.inactiveSelectedCellBorder": "#FF5370",
+		"notebook.outputContainerBackgroundColor": "#3e3e3d00",
+		"notebook.outputContainerBorderColor": "#000000ed",
+		"notebook.selectedCellBackground": "#272822",
+		"notebook.selectedCellBorder": "#FC0E79",
+		"notebook.symbolHighlightBackground": "#FF5370",
+		"notebookScrollbarSlider.activeBackground": "#FFCC00",
+		"notebookScrollbarSlider.background": "#FFCC00",
+		"notebookScrollbarSlider.hoverBackground": "#FF5370",
+		"notebookStatusErrorIcon.foreground": "#FFCC00",
+		"notebookStatusRunningIcon.foreground": "#FC0E79",
+		"notebookStatusSuccessIcon.foreground": "#FFCC00",
+		"notebookEditorOverviewRuler.runningCellForeground": "#FC0E79"
 
 	},
 	"tokenColors": [
