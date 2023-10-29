@@ -193,6 +193,7 @@
                 "foreground": "#F8F8F2"
             }
         },
+		// Python
 		{
             "scope": [
                 "meta.embedded",
@@ -202,6 +203,73 @@
             ],
             "settings": {
                 "foreground": "#F8F8F2"
+            }
+        },
+		{
+            "name": "Source Python Keyword Operator Logical Python",
+            "scope": [
+                "source.python keyword.operator.logical.python"
+            ],
+            "settings": {
+                "foreground": "#C678DD"
+            }
+        },
+        {
+            "name": "Source Python Variable Parameter",
+            "scope": [
+                "source.python variable.parameter"
+            ],
+            "settings": {
+                "foreground": "#D19A66"
+            }
+        },
+		{
+            "name": "[VSCODE-CUSTOM] Python Constants Other",
+            "scope": "source.python constant.other",
+            "settings": {
+                "foreground": "#ABB2BF"
+            }
+        },
+        {
+            "name": "[VSCODE-CUSTOM] Python Constants",
+            "scope": "source.python constant",
+            "settings": {
+                "foreground": "#D19A66"
+            }
+        },
+        {
+            "name": "[VSCODE-CUSTOM] Python Placeholder Character",
+            "scope": "constant.character.format.placeholder.other.python storage",
+            "settings": {
+                "foreground": "#D19A66"
+            }
+        },
+        {
+            "name": "[VSCODE-CUSTOM] Python Magic",
+            "scope": "support.variable.magic.python",
+            "settings": {
+                "foreground": "#E06C75"
+            }
+        },
+        {
+            "name": "[VSCODE-CUSTOM] Python Meta Function Parameters",
+            "scope": "meta.function.parameters.python",
+            "settings": {
+                "foreground": "#D19A66"
+            }
+        },
+        {
+            "name": "[VSCODE-CUSTOM] Python Function Separator Annotation",
+            "scope": "punctuation.separator.annotation.python",
+            "settings": {
+                "foreground": "#ABB2BF"
+            }
+        },
+        {
+            "name": "[VSCODE-CUSTOM] Python Function Separator Punctuation",
+            "scope": "punctuation.separator.parameters.python",
+            "settings": {
+                "foreground": "#ABB2BF"
             }
         },
         {
@@ -256,6 +324,7 @@
 			"foreground": "#5c6370"
 		  }
 		},
+		// C++
 		{
 		  "name": "c++ function",
 		  "scope": "meta.function.c",
@@ -277,6 +346,107 @@
 			"foreground": "#abb2bfff"
 		  }
 		},
+		// CSharp
+		{
+            "name": "[VSCODE-CUSTOM] CSharp Fields",
+            "scope": "entity.name.variable.field.cs",
+            "settings": {
+                "foreground": "#E06C75"
+            }
+        },
+        {
+            "name": "[VSCODE-CUSTOM] CSharp Keyword Operators",
+            "scope": "source.cs keyword.operator",
+            "settings": {
+                "foreground": "#ABB2BF"
+            }
+        },
+        {
+            "name": "[VSCODE-CUSTOM] CSharp Variables",
+            "scope": "variable.other.readwrite.cs",
+            "settings": {
+                "foreground": "#ABB2BF"
+            }
+        },
+        {
+            "name": "[VSCODE-CUSTOM] CSharp Variables Other",
+            "scope": "variable.other.object.cs",
+            "settings": {
+                "foreground": "#ABB2BF"
+            }
+        },
+        {
+            "name": "[VSCODE-CUSTOM] CSharp Property Other",
+            "scope": "variable.other.object.property.cs",
+            "settings": {
+                "foreground": "#ABB2BF"
+            }
+        },
+        {
+            "name": "[VSCODE-CUSTOM] CSharp Property",
+            "scope": "entity.name.variable.property.cs",
+            "settings": {
+                "foreground": "#61AFEF"
+            }
+        },
+        {
+            "name": "[VSCODE-CUSTOM] CSharp Storage Type",
+            "scope": "storage.type.cs",
+            "settings": {
+                "foreground": "#E5C07B"
+            }
+        },
+		// Rust
+		{
+            "name": "[VSCODE-CUSTOM] Rust Unsafe Keyword",
+            "scope": "keyword.other.unsafe.rust",
+            "settings": {
+                "foreground": "#C678DD"
+            }
+        },
+        {
+            "name": "[VSCODE-CUSTOM] Rust Entity Name Type",
+            "scope": "entity.name.type.rust",
+            "settings": {
+                "foreground": "#56B6C2"
+            }
+        },
+        {
+            "name": "[VSCODE-CUSTOM] Rust Storage Modifier Lifetime",
+            "scope": "storage.modifier.lifetime.rust",
+            "settings": {
+                "foreground": "#ABB2BF"
+            }
+        },
+        {
+            "name": "[VSCODE-CUSTOM] Rust Entity Name Lifetime",
+            "scope": "entity.name.lifetime.rust",
+            "settings": {
+                "foreground": "#D19A66"
+            }
+        },
+        {
+            "name": "[VSCODE-CUSTOM] Rust Storage Type Core",
+            "scope": "storage.type.core.rust",
+            "settings": {
+                "foreground": "#56B6C2"
+            }
+        },
+        {
+            "name": "[VSCODE-CUSTOM] Rust Meta Attribute",
+            "scope": "meta.attribute.rust",
+            "settings": {
+                "foreground": "#D19A66"
+            }
+        },
+        {
+            "name": "[VSCODE-CUSTOM] Rust Storage Class Std",
+            "scope": "storage.class.std.rust",
+            "settings": {
+                "foreground": "#56B6C2"
+            }
+        },
+		//
 		{
 		  "name": "variable.other.constant.js",
 		  "scope": "variable.other.constant.js",
@@ -284,6 +454,7 @@
 			"foreground": "#e5c07bff"
 		  }
 		},
+		// Css
 		{
 		  "name": "css color standard name",
 		  "scope": "support.constant.color.w3c-standard-color-name.css,support.constant.color.w3c-standard-color-name.scss",
@@ -305,6 +476,558 @@
 			"foreground": "#56b6c2ff"
 		  }
 		},
+		{
+            "name": "[VSCODE-CUSTOM] Css Support Constant Value",
+            "scope": "support.constant.property-value.css",
+            "settings": {
+                "foreground": "#ABB2BF"
+            }
+        },
+        {
+            "name": "[VSCODE-CUSTOM] Css Punctuation Definition Constant",
+            "scope": "punctuation.definition.constant.css",
+            "settings": {
+                "foreground": "#D19A66"
+            }
+        },
+        {
+            "name": "[VSCODE-CUSTOM] Sass Punctuation for key-value",
+            "scope": "punctuation.separator.key-value.scss",
+            "settings": {
+                "foreground": "#E06C75"
+            }
+        },
+        {
+            "name": "[VSCODE-CUSTOM] Sass Punctuation for constants",
+            "scope": "punctuation.definition.constant.scss",
+            "settings": {
+                "foreground": "#D19A66"
+            }
+        },
+        {
+            "name": "[VSCODE-CUSTOM] Sass Punctuation for key-value",
+            "scope": "meta.property-list.scss punctuation.separator.key-value.scss",
+            "settings": {
+                "foreground": "#ABB2BF"
+            }
+        },
+		// Shell
+		{
+            "name": "[VSCODE-CUSTOM] Shell Variables Punctuation Definition",
+            "scope": "punctuation.definition.variable.shell",
+            "settings": {
+                "foreground": "#E06C75"
+            }
+        },
+		// JS/TS
+		{
+            "name": "[VSCODE-CUSTOM] JS/TS Punctuation for key-value",
+            "scope": [
+                "punctuation.separator.key-value.ts",
+                "punctuation.separator.key-value.js",
+                "punctuation.separator.key-value.tsx"
+            ],
+            "settings": {
+                "foreground": "#56B6C2"
+            }
+        },
+        {
+            "name": "[VSCODE-CUSTOM] JS/TS Embedded Operator",
+            "scope": [
+                "source.js.embedded.html keyword.operator",
+                "source.ts.embedded.html keyword.operator"
+            ],
+            "settings": {
+                "foreground": "#56B6C2"
+            }
+        },
+        {
+            "name": "[VSCODE-CUSTOM] JS/TS Variable Other Readwrite",
+            "scope": [
+                "variable.other.readwrite.js",
+                "variable.other.readwrite.ts",
+                "variable.other.readwrite.tsx"
+            ],
+            "settings": {
+                "foreground": "#ABB2BF"
+            }
+        },
+        {
+            "name": "[VSCODE-CUSTOM] JS/TS Support Variable Dom",
+            "scope": [
+                "support.variable.dom.js",
+                "support.variable.dom.ts"
+            ],
+            "settings": {
+                "foreground": "#E06C75"
+            }
+        },
+        {
+            "name": "[VSCODE-CUSTOM] JS/TS Support Variable Property Dom",
+            "scope": [
+                "support.variable.property.dom.js",
+                "support.variable.property.dom.ts"
+            ],
+            "settings": {
+                "foreground": "#E06C75"
+            }
+        },
+        {
+            "name": "[VSCODE-CUSTOM] JS/TS Interpolation String Punctuation",
+            "scope": [
+                "meta.template.expression.js punctuation.definition",
+                "meta.template.expression.ts punctuation.definition"
+            ],
+            "settings": {
+                "foreground": "#BE5046"
+            }
+        },
+        {
+            "name": "[VSCODE-CUSTOM] JS/TS Punctuation Type Parameters",
+            "scope": [
+                "source.ts punctuation.definition.typeparameters",
+                "source.js punctuation.definition.typeparameters",
+                "source.tsx punctuation.definition.typeparameters"
+            ],
+            "settings": {
+                "foreground": "#ABB2BF"
+            }
+        },
+        {
+            "name": "[VSCODE-CUSTOM] JS/TS Definition Block",
+            "scope": [
+                "source.ts punctuation.definition.block",
+                "source.js punctuation.definition.block",
+                "source.tsx punctuation.definition.block"
+            ],
+            "settings": {
+                "foreground": "#ABB2BF"
+            }
+        },
+        {
+            "name": "[VSCODE-CUSTOM] JS/TS Punctuation Separator Comma",
+            "scope": [
+                "source.ts punctuation.separator.comma",
+                "source.js punctuation.separator.comma",
+                "source.tsx punctuation.separator.comma"
+            ],
+            "settings": {
+                "foreground": "#ABB2BF"
+            }
+        },
+        {
+            "name": "[VSCODE-CUSTOM] JS/TS Variable Property",
+            "scope": [
+                "support.variable.property.js",
+                "support.variable.property.ts",
+                "support.variable.property.tsx"
+            ],
+            "settings": {
+                "foreground": "#E06C75"
+            }
+        },
+        {
+            "name": "[VSCODE-CUSTOM] JS/TS Default Keyword",
+            "scope": [
+                "keyword.control.default.js",
+                "keyword.control.default.ts",
+                "keyword.control.default.tsx"
+            ],
+            "settings": {
+                "foreground": "#E06C75"
+            }
+        },
+        {
+            "name": "[VSCODE-CUSTOM] JS/TS Instanceof Keyword",
+            "scope": [
+                "keyword.operator.expression.instanceof.js",
+                "keyword.operator.expression.instanceof.ts",
+                "keyword.operator.expression.instanceof.tsx"
+            ],
+            "settings": {
+                "foreground": "#C678DD"
+            }
+        },
+        {
+            "name": "[VSCODE-CUSTOM] JS/TS Of Keyword",
+            "scope": [
+                "keyword.operator.expression.of.js",
+                "keyword.operator.expression.of.ts",
+                "keyword.operator.expression.of.tsx"
+            ],
+            "settings": {
+                "foreground": "#C678DD"
+            }
+        },
+        {
+            "name": "[VSCODE-CUSTOM] JS/TS Braces/Brackets",
+            "scope": [
+                "meta.brace.round.js",
+                "meta.array-binding-pattern-variable.js",
+                "meta.brace.square.js",
+                "meta.brace.round.ts",
+                "meta.array-binding-pattern-variable.ts",
+                "meta.brace.square.ts",
+                "meta.brace.round.tsx",
+                "meta.array-binding-pattern-variable.tsx",
+                "meta.brace.square.tsx"
+            ],
+            "settings": {
+                "foreground": "#ABB2BF"
+            }
+        },
+        {
+            "name": "[VSCODE-CUSTOM] JS/TS Punctuation Accessor",
+            "scope": [
+                "source.js punctuation.accessor",
+                "source.ts punctuation.accessor",
+                "source.tsx punctuation.accessor"
+            ],
+            "settings": {
+                "foreground": "#ABB2BF"
+            }
+        },
+        {
+            "name": "[VSCODE-CUSTOM] JS/TS Punctuation Terminator Statement",
+            "scope": [
+                "punctuation.terminator.statement.js",
+                "punctuation.terminator.statement.ts",
+                "punctuation.terminator.statement.tsx"
+            ],
+            "settings": {
+                "foreground": "#ABB2BF"
+            }
+        },
+        {
+            "name": "[VSCODE-CUSTOM] JS/TS Array variables",
+            "scope": [
+                "meta.array-binding-pattern-variable.js variable.other.readwrite.js",
+                "meta.array-binding-pattern-variable.ts variable.other.readwrite.ts",
+                "meta.array-binding-pattern-variable.tsx variable.other.readwrite.tsx"
+            ],
+            "settings": {
+                "foreground": "#D19A66"
+            }
+        },
+        {
+            "name": "[VSCODE-CUSTOM] JS/TS Support Variables",
+            "scope": [
+                "source.js support.variable",
+                "source.ts support.variable",
+                "source.tsx support.variable"
+            ],
+            "settings": {
+                "foreground": "#E06C75"
+            }
+        },
+        {
+            "name": "[VSCODE-CUSTOM] JS/TS Support Variables",
+            "scope": [
+                "variable.other.constant.property.js",
+                "variable.other.constant.property.ts",
+                "variable.other.constant.property.tsx"
+            ],
+            "settings": {
+                "foreground": "#D19A66"
+            }
+        },
+        {
+            "name": "[VSCODE-CUSTOM] JS/TS Keyword New",
+            "scope": [
+                "keyword.operator.new.ts",
+                "keyword.operator.new.j",
+                "keyword.operator.new.tsx"
+            ],
+            "settings": {
+                "foreground": "#C678DD"
+            }
+        },
+        {
+            "name": "[VSCODE-CUSTOM] TS Keyword Operator",
+            "scope": [
+                "source.ts keyword.operator",
+                "source.tsx keyword.operator"
+            ],
+            "settings": {
+                "foreground": "#56B6C2"
+            }
+        },
+        {
+            "name": "[VSCODE-CUSTOM] JS/TS Punctuation Parameter Separator",
+            "scope": [
+                "punctuation.separator.parameter.js",
+                "punctuation.separator.parameter.ts",
+                "punctuation.separator.parameter.tsx "
+            ],
+            "settings": {
+                "foreground": "#ABB2BF"
+            }
+        },
+        {
+            "name": "[VSCODE-CUSTOM] JS/TS Import",
+            "scope": [
+                "constant.language.import-export-all.js",
+                "constant.language.import-export-all.ts"
+            ],
+            "settings": {
+                "foreground": "#E06C75"
+            }
+        },
+        {
+            "name": "[VSCODE-CUSTOM] JSX/TSX Import",
+            "scope": [
+                "constant.language.import-export-all.jsx",
+                "constant.language.import-export-all.tsx"
+            ],
+            "settings": {
+                "foreground": "#56B6C2"
+            }
+        },
+        {
+            "name": "[VSCODE-CUSTOM] JS/TS Keyword Control As",
+            "scope": [
+                "keyword.control.as.js",
+                "keyword.control.as.ts",
+                "keyword.control.as.jsx",
+                "keyword.control.as.tsx"
+            ],
+            "settings": {
+                "foreground": "#ABB2BF"
+            }
+        },
+        {
+            "name": "[VSCODE-CUSTOM] JS/TS Variable Alias",
+            "scope": [
+                "variable.other.readwrite.alias.js",
+                "variable.other.readwrite.alias.ts",
+                "variable.other.readwrite.alias.jsx",
+                "variable.other.readwrite.alias.tsx"
+            ],
+            "settings": {
+                "foreground": "#E06C75"
+            }
+        },
+        {
+            "name": "[VSCODE-CUSTOM] JS/TS Constants",
+            "scope": [
+                "variable.other.constant.js",
+                "variable.other.constant.ts",
+                "variable.other.constant.jsx",
+                "variable.other.constant.tsx"
+            ],
+            "settings": {
+                "foreground": "#D19A66"
+            }
+        },
+        {
+            "name": "[VSCODE-CUSTOM] JS/TS Export Variable",
+            "scope": [
+                "meta.export.default.js variable.other.readwrite.js",
+                "meta.export.default.ts variable.other.readwrite.ts"
+            ],
+            "settings": {
+                "foreground": "#E06C75"
+            }
+        },
+        {
+            "name": "[VSCODE-CUSTOM] JS/TS Template Strings Punctuation Accessor",
+            "scope": [
+                "source.js meta.template.expression.js punctuation.accessor",
+                "source.ts meta.template.expression.ts punctuation.accessor",
+                "source.tsx meta.template.expression.tsx punctuation.accessor"
+            ],
+            "settings": {
+                "foreground": "#98C379"
+            }
+        },
+        {
+            "name": "[VSCODE-CUSTOM] JS/TS Import equals",
+            "scope": [
+                "source.js meta.import-equals.external.js keyword.operator",
+                "source.jsx meta.import-equals.external.jsx keyword.operator",
+                "source.ts meta.import-equals.external.ts keyword.operator",
+                "source.tsx meta.import-equals.external.tsx keyword.operator"
+            ],
+            "settings": {
+                "foreground": "#ABB2BF"
+            }
+        },
+        {
+            "name": "[VSCODE-CUSTOM] JS/TS Type Module",
+            "scope": "entity.name.type.module.js,entity.name.type.module.ts,entity.name.type.module.jsx,entity.name.type.module.tsx",
+            "settings": {
+                "foreground": "#98C379"
+            }
+        },
+        {
+            "name": "[VSCODE-CUSTOM] JS/TS Meta Class",
+            "scope": "meta.class.js,meta.class.ts,meta.class.jsx,meta.class.tsx",
+            "settings": {
+                "foreground": "#ABB2BF"
+            }
+        },
+        {
+            "name": "[VSCODE-CUSTOM] JS/TS Property Definition Variable",
+            "scope": [
+                "meta.definition.property.js variable",
+                "meta.definition.property.ts variable",
+                "meta.definition.property.jsx variable",
+                "meta.definition.property.tsx variable"
+            ],
+            "settings": {
+                "foreground": "#ABB2BF"
+            }
+        },
+        {
+            "name": "[VSCODE-CUSTOM] JS/TS Meta Type Parameters Type",
+            "scope": [
+                "meta.type.parameters.js support.type",
+                "meta.type.parameters.jsx support.type",
+                "meta.type.parameters.ts support.type",
+                "meta.type.parameters.tsx support.type"
+            ],
+            "settings": {
+                "foreground": "#ABB2BF"
+            }
+        },
+        {
+            "name": "[VSCODE-CUSTOM] JS/TS Meta Tag Keyword Operator",
+            "scope": [
+                "source.js meta.tag.js keyword.operator",
+                "source.jsx meta.tag.jsx keyword.operator",
+                "source.ts meta.tag.ts keyword.operator",
+                "source.tsx meta.tag.tsx keyword.operator"
+            ],
+            "settings": {
+                "foreground": "#ABB2BF"
+            }
+        },
+        {
+            "name": "[VSCODE-CUSTOM] JS/TS Meta Tag Punctuation",
+            "scope": [
+                "meta.tag.js punctuation.section.embedded",
+                "meta.tag.jsx punctuation.section.embedded",
+                "meta.tag.ts punctuation.section.embedded",
+                "meta.tag.tsx punctuation.section.embedded"
+            ],
+            "settings": {
+                "foreground": "#ABB2BF"
+            }
+        },
+        {
+            "name": "[VSCODE-CUSTOM] JS/TS Meta Array Literal Variable",
+            "scope": [
+                "meta.array.literal.js variable",
+                "meta.array.literal.jsx variable",
+                "meta.array.literal.ts variable",
+                "meta.array.literal.tsx variable"
+            ],
+            "settings": {
+                "foreground": "#E5C07B"
+            }
+        },
+        {
+            "name": "[VSCODE-CUSTOM] JS/TS Module Exports",
+            "scope": [
+                "support.type.object.module.js",
+                "support.type.object.module.jsx",
+                "support.type.object.module.ts",
+                "support.type.object.module.tsx"
+            ],
+            "settings": {
+                "foreground": "#E06C75"
+            }
+        },
+        {
+            "name": "[VSCODE-CUSTOM] JSON Constants",
+            "scope": [
+                "constant.language.json"
+            ],
+            "settings": {
+                "foreground": "#56B6C2"
+            }
+        },
+        {
+            "name": "[VSCODE-CUSTOM] JS/TS Object Constants",
+            "scope": [
+                "variable.other.constant.object.js",
+                "variable.other.constant.object.jsx",
+                "variable.other.constant.object.ts",
+                "variable.other.constant.object.tsx"
+            ],
+            "settings": {
+                "foreground": "#D19A66"
+            }
+        },
+        {
+            "name": "[VSCODE-CUSTOM] JS/TS Properties Keyword",
+            "scope": [
+                "storage.type.property.js",
+                "storage.type.property.jsx",
+                "storage.type.property.ts",
+                "storage.type.property.tsx"
+            ],
+            "settings": {
+                "foreground": "#56B6C2"
+            }
+        },
+        {
+            "name": "[VSCODE-CUSTOM] JS/TS Single Quote Inside Templated String",
+            "scope": [
+                "meta.template.expression.js string.quoted punctuation.definition",
+                "meta.template.expression.jsx string.quoted punctuation.definition",
+                "meta.template.expression.ts string.quoted punctuation.definition",
+                "meta.template.expression.tsx string.quoted punctuation.definition"
+            ],
+            "settings": {
+                "foreground": "#98C379"
+            }
+        },
+        {
+            "name": "[VSCODE-CUSTOM] JS/TS Backtick inside Templated String",
+            "scope": [
+                "meta.template.expression.js string.template punctuation.definition.string.template",
+                "meta.template.expression.jsx string.template punctuation.definition.string.template",
+                "meta.template.expression.ts string.template punctuation.definition.string.template",
+                "meta.template.expression.tsx string.template punctuation.definition.string.template"
+            ],
+            "settings": {
+                "foreground": "#98C379"
+            }
+        },
+        {
+            "name": "[VSCODE-CUSTOM] JS/TS In Keyword for Loops",
+            "scope": [
+                "keyword.operator.expression.in.js",
+                "keyword.operator.expression.in.jsx",
+                "keyword.operator.expression.in.ts",
+                "keyword.operator.expression.in.tsx"
+            ],
+            "settings": {
+                "foreground": "#C678DD"
+            }
+        },
+        {
+            "name": "[VSCODE-CUSTOM] JS/TS Variable Other Object",
+            "scope": [
+                "variable.other.object.js",
+                "variable.other.object.ts"
+            ],
+            "settings": {
+                "foreground": "#ABB2BF"
+            }
+        },
+        {
+            "name": "[VSCODE-CUSTOM] JS/TS Meta Object Literal Key",
+            "scope": [
+                "meta.object-literal.key.js",
+                "meta.object-literal.key.ts"
+            ],
+            "settings": {
+                "foreground": "#E06C75"
+            }
+        },
+		//
 		{
 		  "name": "js template-expression",
 		  "scope": "punctuation.definition.template-expression.begin.js,punctuation.definition.template-expression.end.js",
