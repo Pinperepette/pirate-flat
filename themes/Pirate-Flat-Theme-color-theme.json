@@ -50,7 +50,7 @@
 		"sideBar.background": "#272822",
 		"sideBarSectionHeader.background": "#272822",
 		"statusBar.background": "#FFCC00",
-		"statusBar.noFolderBackground": "#272822", // "#272822" Barra no folder
+		"statusBar.noFolderBackground": "#272822", // Barra no folder
 		"tab.border": "#272822",
 		"tab.inactiveBackground": "#272822",
 		"titleBar.activeBackground": "#272822",
@@ -89,7 +89,7 @@
 		"gitDecoration.untrackedResourceForeground": "#c3e88d90",
 		"terminal.ansiBrightGreen": "#c3e88d",
 		"terminal.ansiGreen": "#c3e88d",
-		"activityBarBadge.background": "#FC0E79", // #FFCC01
+		"activityBarBadge.background": "#FC0E79",
 		"breadcrumb.activeSelectionForeground": "#FFCC01",
 		"editorSuggestWidget.highlightForeground": "#FFCC01",
 		"editorWidget.resizeBorder": "#FFCC01",
