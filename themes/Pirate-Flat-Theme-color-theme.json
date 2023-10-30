@@ -276,11 +276,11 @@
 		//Notebook
 		"notebook.editorBackground": "#272822",
 		"notebook.cellBorderColor": "#1E1E1E",
-		"notebook.cellHoverBackground": "#1e1e1e5f", //
+		"notebook.cellHoverBackground": "#1e1e1e5f",
 		"notebook.cellInsertionIndicator": "#FC0E79",
 		"notebook.cellStatusBarItemHoverBackground": "#FFCC00",
 		"notebook.cellToolbarSeparator": "#FF5370",
-		"notebook.cellEditorBackground": "#1E1E1E",
+		"notebook.cellEditorBackground": "#2e2e28", //
 		"notebook.focusedCellBackground": "#272822",
 		"notebook.focusedCellBorder": "#FFCC00",
 		"notebook.focusedEditorBorder": "#FC0E79",
