@@ -4,7 +4,10 @@
   "description": "a simple flat theme for pirates",
   "version": "0.0.1",
   "publisher":"Pinperepette",
-  "repository":"https://github.com/Pinperepette/pirate-flat",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Pinperepette/pirate-flat"
+  },
   "engines": {
     "vscode": "^1.83.0"
   },
