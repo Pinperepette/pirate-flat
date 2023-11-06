@@ -13,14 +13,14 @@ cd .vscode/extensions/ && git clone https://github.com/Pinperepette/pirate-flat
 
 If you encounter difficulties installing the theme from the Visual Studio Code marketplace, you can use a workaround to install the theme manually. Here's how to do it:
 
-1. **Download the Repository to a Local Directory:**
-   - Download the theme repository to a local directory on your computer.
+1. **Download the Theme Repository:**
+   - Clone or download the theme repository to a local directory on your computer.
 
-2. **Install the Theme from Local Location:**
+2. **Install the Theme from Local Directory:**
    - Open Visual Studio Code.
    - Go to `File > Preferences > Extensions` or press `Ctrl + Shift + X` to open the Extensions panel.
-   - Click the gear icon in the top right corner of the Extensions panel and select "Developer: Install Extension from VSIX...".
-   - Navigate to the directory where you downloaded the theme repository and select the `.vsix` file of the theme.
+   - Click the gear icon in the top right corner of the Extensions panel and select "Install from VSIX...".
+   - Navigate to the directory where you downloaded the theme repository and select the theme directory.
    - The theme will be installed and will be available among the installed themes in Visual Studio Code.
 
 3. **Apply the Theme:**
@@ -28,6 +28,7 @@ If you encounter difficulties installing the theme from the Visual Studio Code m
    - Select your manually installed theme from the list of available themes.
 
 This workaround allows you to install and use the theme even if you encounter issues with installation from the Visual Studio Code marketplace. If you face further difficulties or have questions, feel free to reach out for assistance.
+
 
 
 ## Contributing
