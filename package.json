@@ -3,7 +3,7 @@
   "displayName": "Pirate-Flat",
   "description": "a simple flat theme for pirates",
   "version": "0.0.1",
-  "publisher":"Pinperepette",
+  "publisher":"pinperepette",
   "repository": {
     "type": "git",
     "url": "https://github.com/Pinperepette/pirate-flat"
@@ -22,5 +22,6 @@
         "path": "./themes/Pirate-Flat-Theme-color-theme.json"
       }
     ]
-  }
+  },
+  "license": "MIT"
 }
