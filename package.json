@@ -4,7 +4,7 @@
 	"description": "A simple flat theme for pirates.",
 	"version": "0.1.0",
 	"engines": {
-		"vscode": "^1.83.0"
+		"vscode": "^1.84.0"
 	},
 	"categories": [
 		"Themes"
