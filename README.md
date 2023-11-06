@@ -15,8 +15,8 @@ If you encounter difficulties installing the theme from the Visual Studio Code m
 
 1. **Download the Theme Repository:**
    - Clone or download the theme repository to a local directory on your computer.
-   - To create the VSIX file for this theme, use the following command:
-   - 
+   To create the VSIX file for this theme, use the following command. Alternatively, others can use the one available in the repository:
+
    ```bash
    vsce package --baseContentUrl https://github.com/Pinperepette/pirate-flat
    ```
