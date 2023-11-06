@@ -5,6 +5,9 @@
 ![anteprima.png](https://github.com/Pinperepette/pirate-flat/blob/main/anteprima.png)
 
 
+To install this theme, you can download it directly from the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=Pinperepette.pirate-flat-theme).
+
+
 ```bash
 cd .vscode/extensions/ && git clone https://github.com/Pinperepette/pirate-flat
 ```
