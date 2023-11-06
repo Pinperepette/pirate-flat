@@ -1,35 +1,29 @@
 {
-	"name": "pirate-flat",
+	"name": "pirate-flat-theme",
 	"displayName": "Pirate Flat Theme",
 	"description": "A simple flat theme for pirates.",
-	"publisher": "pinperepette",
+	"version": "0.1.0",
 	"engines": {
 		"vscode": "^1.83.0"
 	},
-	"version": "0.0.1",
-	"license": "MIT",
 	"categories": [
 		"Themes"
 	],
+	"publisher": "pinperepette",
+	"icon": "icon.png",
 	"contributes": {
 		"themes": [
 			{
 				"label": "Pirate Flat Theme",
 				"uiTheme": "vs-dark",
-				"path": "./themes/Pirate-Flat-Theme-color-theme.json"
+				"path": "./themes/pirate-flat-theme.json"
 			}
 		]
 	},
-	"repository": {
-		"url": "https://github.com/Pinperepette/pirate-flat",
-		"type": "git"
-	},
-	"keywords": [
-		"flat",
-		"dark",
-		"ui",
-		"theme",
-		"pirate"
-	],
-	"icon": "icon.png"
+	"devDependencies": {
+		"@types/vscode": "^1.84.0",
+		"@vscode/test-electron": "^2.3.6",
+		"mkdirp": "^3.0.1",
+		"vscode": "^1.1.34"
+	}
 }
