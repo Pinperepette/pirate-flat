@@ -2,7 +2,7 @@
 
 ## There's not much to write, it's a damn VSC theme, so there's nothing to write about, you should try it.
 
-![Coccodio](anteprima.png)
+![anteprima.png](https://github.com/Pinperepette/pirate-flat/blob/main/anteprima.png)
 
 
 ```bash
