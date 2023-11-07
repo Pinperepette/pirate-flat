@@ -2,7 +2,7 @@
 	"name": "pirate-flat-theme",
 	"displayName": "Pirate Flat Theme",
 	"description": "A simple flat theme for pirates.",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"engines": {
 		"vscode": "^1.84.0"
 	},
