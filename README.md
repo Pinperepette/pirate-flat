@@ -2,7 +2,7 @@
 
 ## There's not much to write, it's a damn VSC theme, so there's nothing to write about, you should try it.
 
-![anteprima.png](https://github.com/Pinperepette/pirate-flat/blob/main/anteprima.png)
+![Pirate-Theme](https://github.com/Pinperepette/pirate-flat/blob/main/anteprima.png?raw=true)
 
 
 To install this theme, you can download it directly from the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=Pinperepette.pirate-flat-theme).
