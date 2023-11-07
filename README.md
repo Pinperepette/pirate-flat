@@ -2,7 +2,7 @@
 
 ## There's not much to write, it's a damn VSC theme, so there's nothing to write about, you should try it.
 
-![Pirate-Theme](https://github.com/Pinperepette/pirate-flat/blob/main/anteprima.png?raw=true)
+![Pirate-Theme](https://raw.githubusercontent.com/Pinperepette/pirate-flat/main/anteprima.png)
 
 
 To install this theme, you can download it directly from the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=Pinperepette.pirate-flat-theme).
@@ -44,4 +44,4 @@ This workaround allows you to install and use the theme even if you encounter is
 If you wish to contribute to this project, you can start by exploring the themes we're using in our code. We've utilized Visual Studio Code theme colors to maintain a consistent look. You can find more details about the color syntax in the [Visual Studio Code Theme Color Reference](https://code.visualstudio.com/api/references/theme-color).
 
 
-![Coccodio](https://github.com/Pinperepette/pirate-flat/blob/main/immagine.png)
+![Pirate-Theme](https://raw.githubusercontent.com/Pinperepette/pirate-flat/main/immagine.png)https://raw.githubusercontent.com/Pinperepette/pirate-flat/main/immagine.png)
